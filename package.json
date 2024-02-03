@@ -2,7 +2,7 @@
   "name": "@ts-pan/dom-node",
   "version": "1.0.0",
   "lib": "./lib",
-  "description": "The 'Handler' Component is like React.Fragment and you can add React composite events and you can get a DOM reference by ref",
+  "description": "The 'DomNode' Component is like React.Fragment and you can add React composite events and you can get a DOM reference by ref",
   "scripts": {
     "dev": "cd examples & ts-node run.ts",
     "dev-vite": "cd examples & vite",
