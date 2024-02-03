@@ -1,6 +1,7 @@
 {
   "name": "@ts-pan/dom-node",
   "version": "1.0.0",
+  "lib": "./lib",
   "description": "The 'Handler' Component is like React.Fragment and you can add React composite events and you can get a DOM reference by ref",
   "scripts": {
     "dev": "cd examples & ts-node run.ts",
@@ -47,13 +48,13 @@
     "ref",
     "findDOMNode"
   ],
-  "homepage": "https://github.com/robertpanvip/handler-fragment.git",
+  "homepage": "https://github.com/robertpanvip/dom-node.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/robertpanvip/handler-fragment.git"
+    "url": "https://github.com/robertpanvip/dom-node.git"
   },
   "bugs": {
-    "url": "https://github.com/robertpanvip/handler-fragment/issues"
+    "url": "https://github.com/robertpanvip/dom-node/issues"
   },
   "author": "pan",
   "license": "ISC"
