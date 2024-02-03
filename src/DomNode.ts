@@ -1,6 +1,9 @@
 import * as React from 'react';
 
-type DomNodeProps = React.DOMAttributes<unknown>
+interface DomNodeProps extends React.DOMAttributes<unknown> {
+    /**@default div*/
+    is?: string
+}
 
 function assignment(node: HTMLDivElement | null, ref: React.ForwardedRef<Element | null | Text>) {
     const content = (node?.firstChild || null) as (Element | Text | null)
@@ -22,9 +25,9 @@ const DomNodeRender: React.ForwardRefRenderFunction<Element | null | Text, DomNo
             ob.disconnect();
         }
     }, [ref])
-    const {children, ...rest} = props;
+    const {is = 'div', children, ...rest} = props;
 
-    return React.createElement('div',
+    return React.createElement(is,
         {
             ref: (node: HTMLDivElement | null) => {
                 assignment(node, ref);
