@@ -1,0 +1,60 @@
+{
+  "name": "@ts-pan/dom-node",
+  "version": "1.0.0",
+  "description": "The 'Handler' Component is like React.Fragment and you can add React composite events and you can get a DOM reference by ref",
+  "scripts": {
+    "dev": "cd examples & ts-node run.ts",
+    "dev-vite": "cd examples & vite",
+    "compile": "es-pkg compile",
+    "unpkg": "es-pkg unpkg",
+    "doc": "es-pkg doc",
+    "publish": "es-pkg publish"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "vite-plugin-checker": "^0.4.9",
+    "@types/node": "^18.0.0",
+    "es-pkg": "latest",
+    "eslint-plugin-react": "^7.30.1",
+    "sass": "^1.53.0",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "keywords": [
+    "handler",
+    "focus-within",
+    "outside-click",
+    "fragment",
+    "event-fragment",
+    "ref",
+    "findDOMNode"
+  ],
+  "homepage": "https://github.com/robertpanvip/handler-fragment.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertpanvip/handler-fragment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertpanvip/handler-fragment/issues"
+  },
+  "author": "pan",
+  "license": "ISC"
+}
